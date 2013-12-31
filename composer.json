@@ -14,5 +14,11 @@
     "minimum-stability": "dev",
     "require": {
 
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "DerAlex\\Phprainfuck": "src" }
     }
 }
