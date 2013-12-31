@@ -1,0 +1,18 @@
+{
+    "name": "deralex/phprainfuck",
+    "description": "Brainfuck interpreter and virtual machine",
+    "require-dev": {
+        "phpspec/phpspec": "2.0.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Kluth",
+            "email": "contact@alexanderkluth.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
