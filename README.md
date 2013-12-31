@@ -2,7 +2,7 @@
 
 ## What the heck is this?
 It's a Brainfuck interpreter and (somewhat) virtual machine which makes
-it possibile to both evaluta brainfuck code as "pure" brainfuck code and
+it possible to both evaluate brainfuck code as "pure" brainfuck code and
 to evaluate brainfuck code as PHP code.
 
 ## Installation
