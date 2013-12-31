@@ -11,4 +11,16 @@ class PhprainfuckSpec extends ObjectBehavior
     {
         $this->shouldHaveType('DerAlex\Phprainfuck\Phprainfuck');
     }
+
+    function it_returns_hello_world()
+    {
+        $string = <<<EOT
++++++ +++[- >++++ ++++< ]>+++ +++++ .<+++ ++[-> +++++ <]>++ ++.++ +++++
+..+++ .<+++ +++++ [->-- ----- -<]>- ----- ----- ----. <++++ +++[- >++++
++++<] >++++ ++.<+ +++[- >++++ <]>++ +++++ +.+++ .---- --.-- ----- -.<++
++++++ +[->- ----- --<]> ---.< 
+EOT;
+
+        $this->evaluate($string)->shouldReturn('Hello World!');
+    }
 }
