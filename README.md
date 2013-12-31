@@ -63,4 +63,6 @@ are coming.
     $vm->run($code);
 
 The argument given by `createVirtualMachine` is the actual heap size.
+The above code will evaluate to `var_dump("Hello World!");` and will print
+`string(12) "Hello World!"`.
 
