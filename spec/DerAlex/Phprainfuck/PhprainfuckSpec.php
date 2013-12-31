@@ -18,9 +18,14 @@ class PhprainfuckSpec extends ObjectBehavior
 +++++ +++[- >++++ ++++< ]>+++ +++++ .<+++ ++[-> +++++ <]>++ ++.++ +++++
 ..+++ .<+++ +++++ [->-- ----- -<]>- ----- ----- ----. <++++ +++[- >++++
 +++<] >++++ ++.<+ +++[- >++++ <]>++ +++++ +.+++ .---- --.-- ----- -.<++
-+++++ +[->- ----- --<]> ---.< 
++++++ +[->- ----- --<]> ---.<
 EOT;
 
         $this->evaluate($string)->shouldReturn('Hello World!');
+    }
+
+    function it_creates_a_new_virtual_machine()
+    {
+        $this->createVirtualMachine(255)->shouldReturnAnInstanceOf('\DerAlex\Phprainfuck\VirtualMachine');
     }
 }

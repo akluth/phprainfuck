@@ -10,7 +10,7 @@ class Phprainfuck
     private $lexer;
     private $parser;
     private $interpreter;
-
+    private $vm;
 
     public function __construct()
     {
@@ -25,5 +25,10 @@ class Phprainfuck
         $code = $this->lexer->lex($code);
         $this->parser->parse($code);
         return $this->interpreter->interprete($code);
+    }
+
+    public function createVirtualMachine($heapSize)
+    {
+        return new VirtualMachine($heapSize);
     }
 }

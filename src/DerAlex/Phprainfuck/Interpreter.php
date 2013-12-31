@@ -9,21 +9,32 @@ class Interpreter
     private $heap;
     private $pointer;
     private $level;
+    private $heapSize;
 
 
-    public function __construct()
+    public function __construct($heapSize = 0)
     {
+        $this->heapSize = $heapSize;
         $this->heap = [];
-        foreach (range(0,65535) as $element) {
-            $this->heap[$element] = 0;
+        foreach (range(0, $heapSize) as $cell) {
+            $this->heap[$cell] = 0;
         }
 
         $this->pointer = 0;
         $this->level = 0;
     }
 
+    /**
+     * If the heapSize is equals 0 we're working with a dynamically heap
+     **/
     public function interprete($code)
     {
+        if ($this->heapSize == 0) {
+            foreach (range(0, count($code)) as $cell) {
+                $this->heap[$cell] = 0;
+            }
+        }
+
         $buffer = '';
 
         //TODO: This code is from my other brainfuck project "watisdat", it may
@@ -74,6 +85,12 @@ class Interpreter
 
                 $instructionPointer--;
                 break;
+            }
+        }
+
+        if ($this->heapSize == 0) {
+            foreach ($this->heap as $i => $value) {
+                unset($this->heap[$i]);
             }
         }
 
