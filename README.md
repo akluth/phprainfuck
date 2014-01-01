@@ -45,9 +45,8 @@ This will print "Hello World!".
 Here's an example on creating a new virtual machine and executing brainfuck
 code as PHP code in it.
 
-*Warning*: Of course this is _not_ a real virtual machine _yet_. PHP code is
-executed in the same context as the actual PHP process. Further improvements
-are coming.
+*Hint*: All code executed via the virtual machine is executed in a seperate
+new PHP process.
 
     $code = <<<EOT
     +++++ +++++ [->++ +++++ +++<] >++++ +++++ +++++ ++++. <++++ [->-- --<]>
