@@ -13,7 +13,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-
     },
     "config": {
         "bin-dir": "bin"

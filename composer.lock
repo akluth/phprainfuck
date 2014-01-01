@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2a6764e40fc68172aa6cce6498cd4884",
+    "hash": "ff53f46f13e93486864e337b335d4dae",
     "packages": [
 
     ],
@@ -47,12 +47,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "02216d513ec3f17a06750854d44e372e3b14bda4"
+                "reference": "a0432fb8a8ccbf33ffb7382a8e17576e0dcecb11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/02216d513ec3f17a06750854d44e372e3b14bda4",
-                "reference": "02216d513ec3f17a06750854d44e372e3b14bda4",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/a0432fb8a8ccbf33ffb7382a8e17576e0dcecb11",
+                "reference": "a0432fb8a8ccbf33ffb7382a8e17576e0dcecb11",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2013-12-30 16:25:34"
+            "time": "2013-12-31 13:53:45"
         },
         {
             "name": "phpspec/prophecy",
@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "9a65fe233d3fa0460d0945f9bad08fdf950a932f"
+                "reference": "0afe517faecb1d3b397a0297d3f7d2cc39587230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/9a65fe233d3fa0460d0945f9bad08fdf950a932f",
-                "reference": "9a65fe233d3fa0460d0945f9bad08fdf950a932f",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/0afe517faecb1d3b397a0297d3f7d2cc39587230",
+                "reference": "0afe517faecb1d3b397a0297d3f7d2cc39587230",
                 "shasum": ""
             },
             "require": {
@@ -215,7 +215,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-29 20:34:05"
+            "time": "2013-12-31 13:43:37"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -224,12 +224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "6a86e7e768e64c85f9d2b76fa895e47d8b3162b3"
+                "reference": "6a30cf4f7951794e2179c29b3ce30fb478019cd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/6a86e7e768e64c85f9d2b76fa895e47d8b3162b3",
-                "reference": "6a86e7e768e64c85f9d2b76fa895e47d8b3162b3",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/6a30cf4f7951794e2179c29b3ce30fb478019cd8",
+                "reference": "6a30cf4f7951794e2179c29b3ce30fb478019cd8",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-28 21:40:48"
+            "time": "2014-01-01 09:18:08"
         },
         {
             "name": "symfony/finder",
@@ -280,12 +280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "da13e76b337421acdb739f5bb5af06c120212971"
+                "reference": "0702b6da117276fbd02b4d961e511b499f5a33e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/da13e76b337421acdb739f5bb5af06c120212971",
-                "reference": "da13e76b337421acdb739f5bb5af06c120212971",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/0702b6da117276fbd02b4d961e511b499f5a33e8",
+                "reference": "0702b6da117276fbd02b4d961e511b499f5a33e8",
                 "shasum": ""
             },
             "require": {
@@ -318,7 +318,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-28 08:12:58"
+            "time": "2014-01-01 09:16:05"
         },
         {
             "name": "symfony/yaml",
