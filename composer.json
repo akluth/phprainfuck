@@ -2,7 +2,7 @@
     "name": "deralex/phprainfuck",
     "description": "Brainfuck interpreter and virtual machine",
     "require-dev": {
-        "phpspec/phpspec": "2.0.x-dev"
+        "phpspec/phpspec": "^4.0" 
     },
     "license": "MIT",
     "authors": [
