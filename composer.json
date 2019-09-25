@@ -1,5 +1,5 @@
 {
-    "name": "deralex/phprainfuck",
+    "name": "alexclooze/phprainfuck",
     "description": "Brainfuck interpreter and virtual machine",
     "require-dev": {
         "phpspec/phpspec": "^4.0" 
@@ -19,6 +19,9 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "DerAlex\\Phprainfuck": "src" }
+        "psr-0": { "AlexClooze\\Phprainfuck": "src" },
+        "classmap": [
+            "src/"
+        ]
     }
 }

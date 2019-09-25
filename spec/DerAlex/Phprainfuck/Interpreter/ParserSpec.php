@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\DerAlex\Phprainfuck\Interpreter;
+namespace spec\AlexClooze\Phprainfuck\Interpreter;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -9,7 +9,7 @@ class ParserSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('DerAlex\Phprainfuck\Interpreter\Parser');
+        $this->shouldHaveType('AlexClooze\Phprainfuck\Interpreter\Parser');
     }
 
     function it_can_parse_valid_code()

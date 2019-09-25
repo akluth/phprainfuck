@@ -1,9 +1,9 @@
 <?php
-namespace DerAlex\Phprainfuck;
+namespace AlexClooze\Phprainfuck;
 
-use DerAlex\Phprainfuck\Interpreter\Lexer;
-use DerAlex\Phprainfuck\Interpreter\Parser;
-use DerAlex\Phprainfuck\VirtualMachine\Spawner;
+use AlexClooze\Phprainfuck\Interpreter\Lexer;
+use AlexClooze\Phprainfuck\Interpreter\Parser;
+use AlexClooze\Phprainfuck\VirtualMachine\Spawner;
 
 class VirtualMachine
 {

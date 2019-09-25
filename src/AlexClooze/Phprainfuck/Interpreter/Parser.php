@@ -1,6 +1,6 @@
 <?php
 
-namespace DerAlex\Phprainfuck\Interpreter;
+namespace AlexClooze\Phprainfuck\Interpreter;
 
 class Parser
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\DerAlex\Phprainfuck;
+namespace spec\AlexClooze\Phprainfuck;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -9,6 +9,6 @@ class CompilerSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('DerAlex\Phprainfuck\Compiler');
+        $this->shouldHaveType('AlexClooze\Phprainfuck\Compiler');
     }
 }
