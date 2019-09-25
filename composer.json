@@ -13,6 +13,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "phpunit/phpunit": "^8.4@dev"
     },
     "config": {
         "bin-dir": "bin"
