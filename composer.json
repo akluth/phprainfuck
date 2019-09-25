@@ -19,7 +19,9 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "AlexClooze\\Phprainfuck": "src" },
+        "psr-4": {
+            "AlexClooze\\Phprainfuck\\": "src/AlexClooze/Phprainfuck/"
+        },
         "classmap": [
             "src/"
         ]
