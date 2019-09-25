@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 final class EmailTest extends TestCase
 {
-    public function testCanInterpreteAndExecuteHelloWorldBrainfuckCode(): void
+    public function testCanInterpretAndExecuteHelloWorldBrainfuckCode(): void
     {
         $brainfuck = new Phprainfuck();
         $code = <<<EOT
