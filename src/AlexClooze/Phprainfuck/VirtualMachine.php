@@ -16,9 +16,6 @@ class VirtualMachine
     public function __construct($heapSize, $phpExecutable = 'php')
     {
         $this->heapSize = $heapSize;
-
-        //TODO: Sharing is caring, do we really have to create new instances of
-        //the lexer and parser?
         $this->lexer = new Lexer();
         $this->parser = new Parser();
         $this->interpreter = new Interpreter($heapSize);
