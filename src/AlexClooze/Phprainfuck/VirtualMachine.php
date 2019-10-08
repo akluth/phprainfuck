@@ -42,7 +42,7 @@ class VirtualMachine
     {
         $this->spawner->spawn();
         $this->spawner->write($code);
-        $this->spawner->read($code);
+        $this->spawner->read();
 
         if ($this->spawner->destroy() != 0) {
             return false;
