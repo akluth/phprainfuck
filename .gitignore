@@ -3,6 +3,5 @@ vendor/
 *.swp
 .idea/
 .phpunit.result.cache
-.coveralls.yml
 build/
 coverage.xml
