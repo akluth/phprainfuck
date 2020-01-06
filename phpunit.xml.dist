@@ -1,18 +1,11 @@
-<phpunit bootstrap="vendor/autoload.php"
-         colors="true"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
-         forceCoversAnnotation="true"
-         backupGlobals="true"
-         backupStaticAttributes="false">
+<phpunit bootstrap="vendor/autoload.php">
     <testsuites>
         <testsuite name="basic">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
     <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
+        <whitelist addUncoveredFilesFromWhitelist="false" processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src</directory>
         </whitelist>
     </filter>
