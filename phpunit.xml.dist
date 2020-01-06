@@ -14,8 +14,8 @@
         </testsuite>
     </testsuites>
     <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src</directory>
+        <whitelist>
+            <directory suffix=".php">./src</directory>
             <exclude>
                 <file>vendor/autoload.php</file>
             </exclude>
