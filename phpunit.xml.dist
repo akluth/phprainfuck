@@ -1,11 +1,9 @@
 <phpunit bootstrap="vendor/autoload.php"
          colors="true"
-         strict="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          forceCoversAnnotation="true"
-         syntaxCheck="true"
          backupGlobals="true"
          backupStaticAttributes="false">
     <testsuites>
@@ -14,7 +12,7 @@
         </testsuite>
     </testsuites>
     <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
+        <whitelist processUncoveredFilesFromWhitelist="false">
             <directory suffix=".php">src</directory>
             <exclude>
                 <file>vendor/autoload.php</file>
