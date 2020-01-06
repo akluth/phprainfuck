@@ -48,5 +48,4 @@ jobs:
 
       # run tests with phpunit or codecept
       - run: ./bin/phpunit
-      #- run: ./vendor/bin/codecept build
-      #- run: ./vendor/bin/codecept run
+      - run: ./bin/php-coveralls
