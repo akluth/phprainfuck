@@ -50,5 +50,5 @@ jobs:
       #- run: php artisan migrate --env=testing --database=sqlite_testing --force
 
       # run tests with phpunit or codecept
-      - run: ./bin/phpunit
+      - run: ./bin/phpunit -c phpunit.xml.dist
       - run: ./bin/php-coveralls
