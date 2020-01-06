@@ -50,5 +50,5 @@ jobs:
       #- run: php artisan migrate --env=testing --database=sqlite_testing --force
 
       # run tests with phpunit or codecept
-      - run: php -d pcov.enabled=1 ./bin/phpunit
+      - run: php -d pcov.enabled=1 ./vendor/bin/phpunit
       - run: ./bin/php-coveralls
