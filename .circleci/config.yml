@@ -26,6 +26,7 @@ jobs:
 
       - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
       - run: sudo docker-php-ext-install zip
+      - run: pecl install pcov
 
       # Download and cache dependencies
       - restore_cache:
@@ -47,5 +48,5 @@ jobs:
       #- run: php artisan migrate --env=testing --database=sqlite_testing --force
 
       # run tests with phpunit or codecept
-      - run: ./bin/phpunit
+      - run: php -d pcov.enabled=1 ./bin/phpunit
       - run: ./bin/php-coveralls
