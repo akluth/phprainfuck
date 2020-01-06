@@ -5,3 +5,4 @@ vendor/
 .phpunit.result.cache
 .coveralls.yml
 build/
+coverage.xml
