@@ -1,8 +1,8 @@
 {
-    "name": "deralex/phprainfuck",
+    "name": "alexclooze/phprainfuck",
     "description": "Brainfuck interpreter and virtual machine",
     "require-dev": {
-        "phpspec/phpspec": "2.0.x-dev"
+        "phpspec/phpspec": "^4.0" 
     },
     "license": "MIT",
     "authors": [
@@ -13,11 +13,17 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "phpunit/phpunit": "^8.4@dev"
     },
     "config": {
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "DerAlex\\Phprainfuck": "src" }
+        "psr-4": {
+            "AlexClooze\\Phprainfuck\\": "src/AlexClooze/Phprainfuck/"
+        },
+        "classmap": [
+            "src/"
+        ]
     }
 }

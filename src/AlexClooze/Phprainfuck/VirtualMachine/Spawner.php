@@ -1,6 +1,6 @@
 <?php
 
-namespace DerAlex\Phprainfuck\VirtualMachine;
+namespace AlexClooze\Phprainfuck\VirtualMachine;
 
 class Spawner
 {

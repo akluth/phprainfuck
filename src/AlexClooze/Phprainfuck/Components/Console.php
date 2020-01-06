@@ -1,8 +1,8 @@
 <?php
 
-namespace DerAlex\Phprainfuck\Components;
+namespace AlexClooze\Phprainfuck\Components;
 
-use DerAlex\Phprainfuck\Interpreter;
+use AlexClooze\Phprainfuck\Interpreter;
 
 class Console
 {

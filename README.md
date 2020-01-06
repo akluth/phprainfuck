@@ -10,7 +10,7 @@ Just add it to your composer.json:
 
     "require": {
         ...
-        "deralex/phprainfuck": "dev-master"
+        "AlexClooze/phprainfuck": "dev-master"
     }
 
 and run `composer update`.
@@ -20,7 +20,7 @@ There are two ways of using phprainfuck.
 
 It all starts with creating a new instance of phprainfuck:
 
-    use DerAlex\Phprainfuck\Phprainfuck;
+    use AlexClooze\Phprainfuck\Phprainfuck;
 
     $phprain = new Phprainfuck();
 

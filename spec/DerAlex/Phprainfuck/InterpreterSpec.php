@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\DerAlex\Phprainfuck;
+namespace spec\AlexClooze\Phprainfuck;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -9,7 +9,7 @@ class InterpreterSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('DerAlex\Phprainfuck\Interpreter');
+        $this->shouldHaveType('AlexClooze\Phprainfuck\Interpreter');
     }
 
     function it_interpretes_valid_code()
