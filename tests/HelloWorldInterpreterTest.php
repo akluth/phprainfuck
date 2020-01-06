@@ -4,7 +4,7 @@ declare(strict_types=1);
 use AlexClooze\Phprainfuck\Phprainfuck;
 use PHPUnit\Framework\TestCase;
 
-final class EmailTest extends TestCase
+final class HelloWorldInterpreterTest extends TestCase
 {
     public function testCanInterpretAndExecuteHelloWorldBrainfuckCode(): void
     {
