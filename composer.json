@@ -2,9 +2,7 @@
     "name": "alexclooze/phprainfuck",
     "description": "Brainfuck interpreter and virtual machine",
     "require-dev": {
-        "phpspec/phpspec": "6.1.1",
-        "php-coveralls/php-coveralls": "2.2.x-dev",
-        "atoum/atoum": "^3.0@dev" 
+        "phpspec/phpspec": "6.1.1"
     },
     "license": "MIT",
     "authors": [
@@ -16,7 +14,8 @@
     "minimum-stability": "dev",
     "require": {
         "phpunit/phpunit": "^8.4@dev",
-        "pcov/clobber": "dev-master"
+        "pcov/clobber": "dev-master",
+        "php-coveralls/php-coveralls": "2.2.x-dev"
     },
     "config": {
         "bin-dir": "bin"
