@@ -2,7 +2,7 @@
     "name": "alexclooze/phprainfuck",
     "description": "Brainfuck interpreter and virtual machine",
     "require-dev": {
-        "phpspec/phpspec": "^4.0",
+        "phpspec/phpspec": "6.1.1",
         "php-coveralls/php-coveralls": "2.2.x-dev",
         "atoum/atoum": "^3.0@dev" 
     },
