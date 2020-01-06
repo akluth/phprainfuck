@@ -15,7 +15,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "phpunit/phpunit": "^8.4@dev"
+        "phpunit/phpunit": "^8.4@dev",
+        "pcov/clobber": "dev-master"
     },
     "config": {
         "bin-dir": "bin"

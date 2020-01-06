@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "446c917fa650da2ae7aac4e42e1285a6",
+    "content-hash": "fc661aeae3bedde96c22b2e98671623d",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -109,6 +109,88 @@
                 "object graph"
             ],
             "time": "2019-12-15T19:12:40+00:00"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "88f3a669c12e576887dfded483e971d6c333adbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/88f3a669c12e576887dfded483e971d6c333adbe",
+                "reference": "88f3a669c12e576887dfded483e971d6c333adbe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "ircmaxell/php-yacc": "0.0.5",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2020-01-04T23:34:49+00:00"
+        },
+        {
+            "name": "pcov/clobber",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krakjoe/pcov-clobber.git",
+                "reference": "4c30759e912e6e5d5bf833fb3d77b5bd51709f05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krakjoe/pcov-clobber/zipball/4c30759e912e6e5d5bf833fb3d77b5bd51709f05",
+                "reference": "4c30759e912e6e5d5bf833fb3d77b5bd51709f05",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcov": "^1.0",
+                "nikic/php-parser": "^4.2"
+            },
+            "bin": [
+                "bin/pcov"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pcov\\Clobber\\": "src/pcov/clobber"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-10-29T05:03:37+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2942,6 +3024,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "phpunit/phpunit": 20,
+        "pcov/clobber": 20,
         "php-coveralls/php-coveralls": 20,
         "atoum/atoum": 20
     },
